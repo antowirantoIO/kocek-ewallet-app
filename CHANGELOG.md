@@ -12,15 +12,16 @@ All notable changes to this project will be documented in this file.
 
 ### New features
 
-- Web and web icon support added.
+- Web and web icon support added. (NOT COMPLETED.)
 - State persistance example added with the new theme system by using `hydrated_storage`.
 
 ### Bug Fixes
 
-- Custom golden test fixed.
+- Custom golden test fixed. (NOT COMPLETED.)
 - Android min and compile sdk versions updated for `flutter_secure_storage`.
 - `hive` storage removed for now.
 - Bugs fixed.
+- (SENTRY IS DISABLED FOR NOW, NOT COMPLETED.)
 
 ### Changed features
 
