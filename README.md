@@ -5,7 +5,7 @@
 </h1>
 
 <h4 align="center">
-A new (almost) fully featured flutter 3 ready boilerplate project by using <a href="https://pub.dev/packages/flutter_bloc" target="_blank">BLoC</a>.
+    Kocek EWallet offers swift and seamless financial transactions, from instant money transfers to bill payments, all via an intuitive mobile interface.
 </h4>
 
 <p align="center">
