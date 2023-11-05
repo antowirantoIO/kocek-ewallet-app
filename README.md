@@ -1,6 +1,7 @@
 <h1 align="center">
-  Kocek EWallet: Your Digital Finance Companion <br><br>
   <img src="./assets/images/github/Primary Banner.png" width="600">
+  <br><br>
+  Kocek EWallet: Your Digital Finance Companion 
   <br>
 </h1>
 
