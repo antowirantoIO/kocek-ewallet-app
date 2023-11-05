@@ -1,8 +1,8 @@
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_advanced_boilerplate/features/app/blocs/app_cubit.dart';
-import 'package:flutter_advanced_boilerplate/features/app/widgets/navigation/bottom_navigation.dart';
-import 'package:flutter_advanced_boilerplate/utils/constants.dart';
+import 'package:kocek/features/app/blocs/app_cubit.dart';
+import 'package:kocek/features/app/widgets/navigation/bottom_navigation.dart';
+import 'package:kocek/utils/constants.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 @RoutePage()

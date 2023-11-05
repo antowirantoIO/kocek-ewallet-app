@@ -1,5 +1,5 @@
 import 'package:auto_route/auto_route.dart';
-import 'package:flutter_advanced_boilerplate/utils/router.gr.dart';
+import 'package:kocek/utils/router.gr.dart';
 
 @AutoRouterConfig()
 class AppRouter extends $AppRouter {
@@ -10,6 +10,7 @@ class AppRouter extends $AppRouter {
           page: AppWrapper.page,
           path: '/',
           children: [
+            AutoRoute(page: BoardingRoute.page, path: 'boarding'),
             AutoRoute(page: LoginRoute.page, path: 'home'),
             AutoRoute(page: AppNavigator.page, path: 'home'),
           ],

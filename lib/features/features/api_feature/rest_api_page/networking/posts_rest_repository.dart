@@ -1,9 +1,9 @@
 import 'package:data_channel/data_channel.dart';
 import 'package:dio/dio.dart';
-import 'package:flutter_advanced_boilerplate/features/app/models/alert_model.dart';
-import 'package:flutter_advanced_boilerplate/features/app/models/paginated_model.dart';
-import 'package:flutter_advanced_boilerplate/features/features/api_feature/rest_api_page/models/post_rest_model.dart';
-import 'package:flutter_advanced_boilerplate/modules/dio/dio_exception_handler.dart';
+import 'package:kocek/features/app/models/alert_model.dart';
+import 'package:kocek/features/app/models/paginated_model.dart';
+import 'package:kocek/features/features/api_feature/rest_api_page/models/post_rest_model.dart';
+import 'package:kocek/modules/dio/dio_exception_handler.dart';
 import 'package:injectable/injectable.dart';
 
 @lazySingleton

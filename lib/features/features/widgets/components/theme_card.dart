@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_advanced_boilerplate/features/app/blocs/app_cubit.dart';
-import 'package:flutter_advanced_boilerplate/utils/methods/shortcuts.dart';
+import 'package:kocek/features/app/blocs/app_cubit.dart';
+import 'package:kocek/utils/methods/shortcuts.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 class ThemeCard extends StatelessWidget {

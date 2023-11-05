@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_advanced_boilerplate/features/app/widgets/utils/skeleton_loader.dart';
-import 'package:flutter_advanced_boilerplate/features/features/api_feature/rest_api_page/blocs/get_posts_rest_cubit.dart';
-import 'package:flutter_advanced_boilerplate/features/features/api_feature/rest_api_page/models/post_rest_model.dart';
-import 'package:flutter_advanced_boilerplate/i18n/strings.g.dart';
-import 'package:flutter_advanced_boilerplate/modules/dependency_injection/di.dart';
+import 'package:kocek/features/app/widgets/utils/skeleton_loader.dart';
+import 'package:kocek/features/features/api_feature/rest_api_page/blocs/get_posts_rest_cubit.dart';
+import 'package:kocek/features/features/api_feature/rest_api_page/models/post_rest_model.dart';
+import 'package:kocek/i18n/strings.g.dart';
+import 'package:kocek/modules/dependency_injection/di.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:infinite_scroll_pagination/infinite_scroll_pagination.dart';
 import 'package:keframe/keframe.dart';

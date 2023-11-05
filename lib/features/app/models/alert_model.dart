@@ -1,6 +1,6 @@
-import 'package:flutter_advanced_boilerplate/i18n/strings.g.dart';
-import 'package:flutter_advanced_boilerplate/modules/dio/dio_exception_handler.dart';
-import 'package:flutter_advanced_boilerplate/utils/methods/aliases.dart';
+import 'package:kocek/i18n/strings.g.dart';
+import 'package:kocek/modules/dio/dio_exception_handler.dart';
+import 'package:kocek/utils/methods/aliases.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:graphql_flutter/graphql_flutter.dart';
 

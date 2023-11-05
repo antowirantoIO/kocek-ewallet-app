@@ -1,10 +1,10 @@
 import 'package:dynamic_color/dynamic_color.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_advanced_boilerplate/theme/color/app_color_scheme.dart';
-import 'package:flutter_advanced_boilerplate/theme/text/app_text_theme.dart';
-import 'package:flutter_advanced_boilerplate/theme/text/app_typography.dart';
-import 'package:flutter_advanced_boilerplate/utils/constants.dart';
+import 'package:kocek/theme/color/app_color_scheme.dart';
+import 'package:kocek/theme/text/app_text_theme.dart';
+import 'package:kocek/theme/text/app_typography.dart';
+import 'package:kocek/utils/constants.dart';
 
 Future<ThemeData> createTheme({
   required Brightness brightness,

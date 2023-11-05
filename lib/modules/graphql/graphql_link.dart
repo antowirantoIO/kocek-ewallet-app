@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:flutter_advanced_boilerplate/modules/token_refresh/graphql_token_refresh.dart';
+import 'package:kocek/modules/token_refresh/graphql_token_refresh.dart';
 import 'package:fresh_dio/fresh_dio.dart' hide Response;
 import 'package:graphql_flutter/graphql_flutter.dart';
 import 'package:http/http.dart' as http;

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_advanced_boilerplate/theme/text/app_text_theme.dart';
-import 'package:flutter_advanced_boilerplate/utils/constants.dart';
+import 'package:kocek/theme/text/app_text_theme.dart';
+import 'package:kocek/utils/constants.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
 part 'app_typography.freezed.dart';

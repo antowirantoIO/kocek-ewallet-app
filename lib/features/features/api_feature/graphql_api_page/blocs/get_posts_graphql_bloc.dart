@@ -1,6 +1,6 @@
-import 'package:flutter_advanced_boilerplate/modules/graphql/blocs/query/query_bloc.dart';
-import 'package:flutter_advanced_boilerplate/modules/graphql/models/graphql_api.dart';
-import 'package:flutter_advanced_boilerplate/utils/constants.dart';
+import 'package:kocek/modules/graphql/blocs/query/query_bloc.dart';
+import 'package:kocek/modules/graphql/models/graphql_api.dart';
+import 'package:kocek/utils/constants.dart';
 import 'package:graphql_flutter/graphql_flutter.dart';
 import 'package:injectable/injectable.dart';
 

@@ -1,7 +1,7 @@
 import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_advanced_boilerplate/utils/constants.dart';
-import 'package:flutter_advanced_boilerplate/utils/methods/shortcuts.dart';
+import 'package:kocek/utils/constants.dart';
+import 'package:kocek/utils/methods/shortcuts.dart';
 import 'package:rounded_loading_button/rounded_loading_button.dart';
 
 class CustomButton extends StatefulWidget {

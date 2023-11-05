@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:flutter_advanced_boilerplate/utils/methods/aliases.dart';
+import 'package:kocek/utils/methods/aliases.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:sentry_flutter/sentry_flutter.dart';
 

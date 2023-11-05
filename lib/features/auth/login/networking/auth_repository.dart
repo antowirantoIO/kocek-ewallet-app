@@ -2,9 +2,9 @@ import 'dart:async';
 
 import 'package:data_channel/data_channel.dart';
 import 'package:dio/dio.dart';
-import 'package:flutter_advanced_boilerplate/features/app/models/alert_model.dart';
-import 'package:flutter_advanced_boilerplate/features/app/models/auth_model.dart';
-import 'package:flutter_advanced_boilerplate/features/app/models/user_model.dart';
+import 'package:kocek/features/app/models/alert_model.dart';
+import 'package:kocek/features/app/models/auth_model.dart';
+import 'package:kocek/features/app/models/user_model.dart';
 import 'package:injectable/injectable.dart';
 
 @lazySingleton
@@ -12,8 +12,8 @@ class AuthRepository {
   AuthRepository(this._dioClient);
 
   final Dio _dioClient;
-
   Future<DC<AlertModel, AuthModel>> login({
+
     required String username,
     required String password,
   }) async {

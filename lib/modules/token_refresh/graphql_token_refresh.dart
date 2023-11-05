@@ -1,7 +1,7 @@
 import 'dart:convert';
 
-import 'package:flutter_advanced_boilerplate/features/app/models/auth_model.dart';
-import 'package:flutter_advanced_boilerplate/features/app/models/env_model.dart';
+import 'package:kocek/features/app/models/auth_model.dart';
+import 'package:kocek/features/app/models/env_model.dart';
 import 'package:fresh_graphql/fresh_graphql.dart';
 import 'package:graphql_flutter/graphql_flutter.dart';
 import 'package:http/http.dart' hide Response;

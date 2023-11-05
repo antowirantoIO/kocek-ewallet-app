@@ -1,10 +1,10 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_advanced_boilerplate/features/app/widgets/customs/custom_container_transform.dart';
-import 'package:flutter_advanced_boilerplate/features/app/widgets/utils/skeleton_loader.dart';
-import 'package:flutter_advanced_boilerplate/utils/constants.dart';
-import 'package:flutter_advanced_boilerplate/utils/methods/shortcuts.dart';
+import 'package:kocek/features/app/widgets/customs/custom_container_transform.dart';
+import 'package:kocek/features/app/widgets/utils/skeleton_loader.dart';
+import 'package:kocek/utils/constants.dart';
+import 'package:kocek/utils/methods/shortcuts.dart';
 
 class InfoCard extends StatelessWidget {
   const InfoCard({

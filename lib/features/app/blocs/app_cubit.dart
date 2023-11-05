@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_advanced_boilerplate/features/app/models/theme_model.dart';
-import 'package:flutter_advanced_boilerplate/modules/dependency_injection/di.dart';
-import 'package:flutter_advanced_boilerplate/theme/app_theme.dart';
+import 'package:kocek/features/app/models/theme_model.dart';
+import 'package:kocek/modules/dependency_injection/di.dart';
+import 'package:kocek/theme/app_theme.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:hydrated_bloc/hydrated_bloc.dart';
 import 'package:injectable/injectable.dart';

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_advanced_boilerplate/features/app/blocs/app_cubit.dart';
-import 'package:flutter_advanced_boilerplate/modules/dependency_injection/di.dart';
-import 'package:flutter_advanced_boilerplate/utils/constants.dart';
+import 'package:kocek/features/app/blocs/app_cubit.dart';
+import 'package:kocek/modules/dependency_injection/di.dart';
+import 'package:kocek/utils/constants.dart';
 
 class BottomNavigation extends StatelessWidget {
   const BottomNavigation({

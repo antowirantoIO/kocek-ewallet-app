@@ -1,4 +1,4 @@
-import 'package:flutter_advanced_boilerplate/modules/dependency_injection/di.dart';
+import 'package:kocek/modules/dependency_injection/di.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:graphql_flutter/graphql_flutter.dart';

@@ -1,4 +1,4 @@
-import 'package:flutter_advanced_boilerplate/features/app/models/user_model.dart';
+import 'package:kocek/features/app/models/user_model.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
 part 'auth_model.freezed.dart';

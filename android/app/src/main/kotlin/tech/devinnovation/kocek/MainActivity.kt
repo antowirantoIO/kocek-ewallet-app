@@ -1,4 +1,4 @@
-package com.example.flutter_advanced_boilerplate
+package tech.devinnovation.kocek
 
 import io.flutter.embedding.android.FlutterActivity
 

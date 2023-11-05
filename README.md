@@ -21,7 +21,7 @@
   <a href="#camera-screenshots">Screenshots</a> •
   <a href="#books-how-to-use">How To Use</a> •
   <a href="#file_folder-folder-structure">Folder Structure</a> •
-  <a href="https://github.com/fikretsengul/flutter_advanced_boilerplate/blob/stage/CHANGELOG.md">Changelog</a><br>
+  <a href="https://github.com/fikretsengul/kocek/blob/stage/CHANGELOG.md">Changelog</a><br>
   <a href="#star2-good-to-know">Good To Know</a> •
   <a href="#question-faq">FAQ</a> •
   <a href="#cherry_blossom-community">Community</a> •
@@ -101,10 +101,10 @@ To clone and run this boilerplate, you'll need [Git](https://git-scm.com) and [F
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/fikretsengul/flutter_advanced_boilerplate
+$ git clone https://github.com/fikretsengul/kocek
 
 # Go into the repository
-$ cd flutter_advanced_boilerplate
+$ cd kocek
 
 # Install dependencies
 $ fvm flutter pub get
@@ -341,7 +341,7 @@ This repository makes use of the following pub packages:
 ## :cherry_blossom: Community
 ### :fire: Contribution
 If you want to say **thank you** you can;
--   add a  [GitHub Star]([https://github.com/create-go-app/cli](https://github.com/fikretsengul/flutter_advanced_boilerplate))  to the project,
+-   add a  [GitHub Star]([https://github.com/create-go-app/cli](https://github.com/fikretsengul/kocek))  to the project,
 -   tweet about project  [on your Twitter](https://twitter.com/),
 -   [buy me a coffee](https://www.buymeacoffee.com/iamfikretB)
 

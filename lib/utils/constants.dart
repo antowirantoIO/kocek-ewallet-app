@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_advanced_boilerplate/features/auth/login/blocs/auth_cubit.dart';
-import 'package:flutter_advanced_boilerplate/features/features/features_screen.dart';
-import 'package:flutter_advanced_boilerplate/features/informations/informations_screen.dart';
-import 'package:flutter_advanced_boilerplate/i18n/strings.g.dart';
-import 'package:flutter_advanced_boilerplate/modules/dependency_injection/di.dart';
+import 'package:kocek/features/auth/login/blocs/auth_cubit.dart';
+import 'package:kocek/features/features/features_screen.dart';
+import 'package:kocek/features/informations/informations_screen.dart';
+import 'package:kocek/i18n/strings.g.dart';
+import 'package:kocek/modules/dependency_injection/di.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 
 final $constants = Constants();
@@ -102,16 +102,6 @@ class _Palette {
   final orange = const Color(0xFFFF8000);
   final purple = const Color(0xFF0080FF);
   final red = const Color(0xFFFF0000);
-  final List<Color> themes = [
-    const Color(0xFFFF0000),
-    const Color(0xFFFF8000),
-    const Color(0xFFFCCC1A),
-    const Color(0xFF66B032),
-    const Color(0xFF00FFFF),
-    const Color(0xFF0000FF),
-    const Color(0xFF0080FF),
-    const Color(0xFFFF00FF),
-  ];
 
   final white = const Color(0xFFFFFFFF);
   final yellow = const Color(0xFFFCCC1A);
@@ -121,8 +111,8 @@ class _Palette {
 class _Theme {
   final double defaultBorderRadius = 24;
   final double defaultElevation = 0;
-  final defaultFontFamily = 'Nunito';
-  final defaultThemeColor = const Color(0xFF0000FF);
+  final defaultFontFamily = 'PlusJakartaSans';
+  final defaultThemeColor = const Color(0xFF11B1E2);
   final tryToGetColorPaletteFromWallpaper = true;
 }
 

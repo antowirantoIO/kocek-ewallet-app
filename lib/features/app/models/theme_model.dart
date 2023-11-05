@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_advanced_boilerplate/theme/app_theme.dart';
+import 'package:kocek/theme/app_theme.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:injectable/injectable.dart';
 import 'package:json_theme/json_theme.dart';
@@ -35,7 +35,7 @@ class ThemeModel with _$ThemeModel {
   }
 
   factory ThemeModel.initial() => ThemeModel(
-        mode: ThemeMode.system,
+        mode: ThemeMode.light,
         light: ThemeData.light(),
         dark: ThemeData.dark(),
       );
@@ -51,7 +51,7 @@ class ThemeModel with _$ThemeModel {
   @factoryMethod
   static Future<ThemeModel> create() async {
     return ThemeModel(
-      mode: ThemeMode.system,
+      mode: ThemeMode.light,
       light: await createTheme(brightness: Brightness.light),
       dark: await createTheme(brightness: Brightness.dark),
     );

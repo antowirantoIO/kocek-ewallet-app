@@ -1,8 +1,8 @@
 import 'dart:async';
 
-import 'package:flutter_advanced_boilerplate/features/app/models/alert_model.dart';
-import 'package:flutter_advanced_boilerplate/modules/dependency_injection/di.dart';
-import 'package:flutter_advanced_boilerplate/modules/graphql/graphql_exception_handler.dart';
+import 'package:kocek/features/app/models/alert_model.dart';
+import 'package:kocek/modules/dependency_injection/di.dart';
+import 'package:kocek/modules/graphql/graphql_exception_handler.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:graphql_flutter/graphql_flutter.dart';
