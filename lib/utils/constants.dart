@@ -13,7 +13,7 @@ class Constants {
   /// API configuration.
   late final api = _API();
 
-  final appTitle = 'Flutter Advanced Boilerplate';
+  final appTitle = 'Kocek EWallet App';
 
   /// Rounded edge corner radiuses.
   late final corners = _Corners();
