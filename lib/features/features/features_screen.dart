@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_advanced_boilerplate/features/features/widgets/components/theme_customizer.dart';
-import 'package:flutter_advanced_boilerplate/features/features/widgets/features_list.dart';
-import 'package:flutter_advanced_boilerplate/i18n/strings.g.dart';
-import 'package:flutter_advanced_boilerplate/utils/methods/shortcuts.dart';
+import 'package:kocek/features/features/widgets/components/theme_customizer.dart';
+import 'package:kocek/features/features/widgets/features_list.dart';
+import 'package:kocek/i18n/strings.g.dart';
+import 'package:kocek/utils/methods/shortcuts.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 
 class FeaturesScreen extends StatelessWidget {

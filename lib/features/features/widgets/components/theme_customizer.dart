@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_advanced_boilerplate/features/app/blocs/app_cubit.dart';
-import 'package:flutter_advanced_boilerplate/features/features/widgets/components/theme_card.dart';
-import 'package:flutter_advanced_boilerplate/modules/dependency_injection/di.dart';
-import 'package:flutter_advanced_boilerplate/utils/constants.dart';
-import 'package:flutter_advanced_boilerplate/utils/methods/shortcuts.dart';
+import 'package:kocek/features/app/blocs/app_cubit.dart';
+import 'package:kocek/features/features/widgets/components/theme_card.dart';
+import 'package:kocek/modules/dependency_injection/di.dart';
+import 'package:kocek/utils/constants.dart';
+import 'package:kocek/utils/methods/shortcuts.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 import 'package:spring_button/spring_button.dart';
@@ -12,37 +12,6 @@ final PageController pageController = PageController();
 
 class ThemeCustomizer extends StatelessWidget {
   const ThemeCustomizer({super.key});
-
-  Widget buildColor(
-    BuildContext context, {
-    required int index,
-    required bool disabled,
-  }) {
-    return Padding(
-      padding: EdgeInsets.only(left: index != 0 ? 8 : 0),
-      child: SpringButton(
-        SpringButtonType.OnlyScale,
-        Container(
-          width: 30,
-          height: 30,
-          decoration: BoxDecoration(
-            color: !disabled
-                ? $constants.palette.themes.elementAt(index)
-                : $constants.palette.themes.elementAt(index).withOpacity(0.2),
-            shape: BoxShape.circle,
-          ),
-        ),
-        onTap: !disabled
-            ? () => getIt<AppCubit>().setThemeColor(
-                  context,
-                  color: $constants.palette.themes.elementAt(index),
-                )
-            : null,
-        useCache: false,
-        scaleCoefficient: 0.9,
-      ),
-    );
-  }
 
   @override
   Widget build(BuildContext context) {
@@ -111,18 +80,6 @@ class ThemeCustomizer extends StatelessWidget {
                       ),
                     ),
                     const SizedBox(width: 8),
-                    ListView.builder(
-                      itemCount: $constants.palette.themes.length,
-                      scrollDirection: Axis.horizontal,
-                      shrinkWrap: true,
-                      itemBuilder: (_, index) {
-                        return buildColor(
-                          context,
-                          index: index,
-                          disabled: disabled,
-                        );
-                      },
-                    ),
                   ],
                 ),
               ),

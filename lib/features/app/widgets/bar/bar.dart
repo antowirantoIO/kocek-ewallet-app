@@ -3,7 +3,7 @@ import 'dart:ui';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
-import 'package:flutter_advanced_boilerplate/features/app/widgets/bar/bar_route.dart' as route;
+import 'package:kocek/features/app/widgets/bar/bar_route.dart' as route;
 
 const String barRouteName = '/barRoute';
 
@@ -405,7 +405,7 @@ class _BarState<K extends Object?> extends State<Bar<K>> with TickerProviderStat
               }
 
               return ClipRRect(
-                borderRadius: widget.borderRadius,
+                borderRadius: widget.borderRadius ?? BorderRadius.zero,
                 child: BackdropFilter(
                   filter: ImageFilter.blur(
                     sigmaX: widget.barBlur,

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_advanced_boilerplate/features/features/api_feature/api_feature_screen.dart';
-import 'package:flutter_advanced_boilerplate/features/features/widgets/components/info_card.dart';
-import 'package:flutter_advanced_boilerplate/i18n/strings.g.dart';
+import 'package:kocek/features/features/api_feature/api_feature_screen.dart';
+import 'package:kocek/features/features/widgets/components/info_card.dart';
+import 'package:kocek/i18n/strings.g.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:keframe/keframe.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';

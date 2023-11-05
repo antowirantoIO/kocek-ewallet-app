@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_advanced_boilerplate/features/app/models/alert_model.dart';
-import 'package:flutter_advanced_boilerplate/features/app/widgets/bar/bar.dart';
-import 'package:flutter_advanced_boilerplate/i18n/strings.g.dart';
+import 'package:kocek/features/app/models/alert_model.dart';
+import 'package:kocek/features/app/widgets/bar/bar.dart';
+import 'package:kocek/i18n/strings.g.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 
 @immutable

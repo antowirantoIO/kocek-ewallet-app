@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented in this file.
 
-## [1.0.0+6](https://github.com/fikretsengul/flutter_advanced_boilerplate/compare/526ae91..XXXXXXX) - 2023-07-25
+## [1.0.0+6](https://github.com/fikretsengul/kocek/compare/526ae91..XXXXXXX) - 2023-07-25
 
 ### Enhancements
 
@@ -26,11 +26,11 @@ All notable changes to this project will be documented in this file.
 }
 ```
 
-## [1.0.0+5](https://github.com/fikretsengul/flutter_advanced_boilerplate/compare/b26dbb2..526ae91) - 2022-11-10
+## [1.0.0+5](https://github.com/fikretsengul/kocek/compare/b26dbb2..526ae91) - 2022-11-10
 
 ### New features
 
-- [Permission handling](https://github.com/fikretsengul/flutter_advanced_boilerplate/issues/14) system implemented for only mobile and an example added about image picker.
+- [Permission handling](https://github.com/fikretsengul/kocek/issues/14) system implemented for only mobile and an example added about image picker.
 - `shimmer` added for skeletons, `keframe` added for performance, `url_strategy` added to remove '#' from the url of the web version, `image_picker` added for image picker example, `permission_handler` added in order to manage permissions on only mobile.
 
 ### Enhancements
@@ -42,10 +42,10 @@ All notable changes to this project will be documented in this file.
 
 ### Bug Fixes
 
-- [AuthCubit close when app still using](https://github.com/fikretsengul/flutter_advanced_boilerplate/issues/12) issue fixed.
-- [Login screen - takes hitting tab twice to move to password field on web](https://github.com/fikretsengul/flutter_advanced_boilerplate/issues/9) issue fixed.
+- [AuthCubit close when app still using](https://github.com/fikretsengul/kocek/issues/12) issue fixed.
+- [Login screen - takes hitting tab twice to move to password field on web](https://github.com/fikretsengul/kocek/issues/9) issue fixed.
 
-## [1.0.0+4](https://github.com/fikretsengul/flutter_advanced_boilerplate/compare/aa4432a..b26dbb2) - 2022-11-05
+## [1.0.0+4](https://github.com/fikretsengul/kocek/compare/aa4432a..b26dbb2) - 2022-11-05
 
 ### New features
 
@@ -68,7 +68,7 @@ All notable changes to this project will be documented in this file.
 - `universal_platform` added to identify all platforms.
 - `json_theme` to easily convert theme data toJson and fromJson.
 
-## [1.0.0+3](https://github.com/fikretsengul/flutter_advanced_boilerplate/compare/b8bb7bf..aa4432a) - 2022-11-03
+## [1.0.0+3](https://github.com/fikretsengul/kocek/compare/b8bb7bf..aa4432a) - 2022-11-03
 
 ### Changed features
 
@@ -76,7 +76,7 @@ All notable changes to this project will be documented in this file.
 - Packages updated.
 - Q&A section added to README.nd and CHANGELOG.md file created.
 
-## [1.0.0+2](https://github.com/fikretsengul/flutter_advanced_boilerplate/compare/4e68479..b8bb7bf) - 2022-10-31
+## [1.0.0+2](https://github.com/fikretsengul/kocek/compare/4e68479..b8bb7bf) - 2022-10-31
 
 ### New features
 

@@ -1,6 +1,6 @@
 import 'package:dio/dio.dart';
-import 'package:flutter_advanced_boilerplate/modules/dependency_injection/di.dart';
-import 'package:flutter_advanced_boilerplate/modules/dio/dio_exception_handler.dart';
+import 'package:kocek/modules/dependency_injection/di.dart';
+import 'package:kocek/modules/dio/dio_exception_handler.dart';
 import 'package:internet_connection_checker_plus/internet_connection_checker_plus.dart';
 
 class BadNetworkErrorInterceptor extends Interceptor {

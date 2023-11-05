@@ -1,7 +1,7 @@
 import 'dart:convert';
 
 import 'package:dio/dio.dart';
-import 'package:flutter_advanced_boilerplate/modules/dio/dio_exception_handler.dart';
+import 'package:kocek/modules/dio/dio_exception_handler.dart';
 
 class ApiErrorInterceptor extends Interceptor {
   @override

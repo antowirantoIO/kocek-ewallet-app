@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_advanced_boilerplate/utils/constants.dart';
-import 'package:flutter_advanced_boilerplate/utils/methods/shortcuts.dart';
+import 'package:kocek/utils/constants.dart';
+import 'package:kocek/utils/methods/shortcuts.dart';
 
 class MaterialSplashTappable extends StatelessWidget {
   const MaterialSplashTappable({

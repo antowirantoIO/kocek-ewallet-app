@@ -2,7 +2,7 @@ import 'dart:async';
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_advanced_boilerplate/features/app/widgets/bar/bar.dart';
+import 'package:kocek/features/app/widgets/bar/bar.dart';
 
 class BarRoute<T> extends OverlayRoute<T> {
   BarRoute({
