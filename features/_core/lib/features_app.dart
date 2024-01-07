@@ -48,7 +48,7 @@ class _FeaturesAppState extends State<FeaturesApp> {
             return BlocBuilder<ThemeCubit, ThemeState>(
               builder: (_, state) {
                 return MaterialApp.router(
-                  title: 'Flutter Advanced Boilerplate',
+                  title: 'kocek ewallet',
                   themeMode: state.theme.mode,
                   theme: state.theme.data,
                   locale: locale,

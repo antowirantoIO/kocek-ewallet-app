@@ -1,9 +1,9 @@
-name: flutter_advanced_boilerplate
+name: kocek_ewallet_app
 repository:
   type: github
-  origin: https://github.com/fikretsengul/flutter_advanced_boilerplate
-  owner: fikretsengul
-  name: flutter_advanced_boilerplate
+  origin: https://github.com/antowirantoIO/kocek_ewallet_app
+  owner: antowirantoIO
+  name: kocek_ewallet_app
 
 packages:
   - app
@@ -102,6 +102,12 @@ scripts:
     run:  |
       melos exec -c 1 --depends-on="build_runner" -- \
         dart run build_runner build -d
+
+  generate:watch:
+    description: Generate codes for all packages in watch mode.
+    run:  |
+      melos exec -c 1 --depends-on="build_runner" -- \
+        dart run build_runner watch -d
 
   # Tests
   test:

@@ -5,7 +5,7 @@ import 'text_theme.dart';
 
 ThemeData flexDarkThemeData = FlexThemeData.dark(
   textTheme: textTheme,
-  scheme: FlexScheme.aquaBlue,
+  scheme: FlexScheme.deepBlue,
   surfaceMode: FlexSurfaceMode.levelSurfacesLowScaffold,
   blendLevel: 13,
   subThemesData: const FlexSubThemesData(
